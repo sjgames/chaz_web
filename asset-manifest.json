@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chaz_web/static/css/main.9ff40582.css",
+    "main.js": "/chaz_web/static/js/main.e18efb5d.js",
+    "static/js/787.953b5010.chunk.js": "/chaz_web/static/js/787.953b5010.chunk.js",
+    "index.html": "/chaz_web/index.html",
+    "main.9ff40582.css.map": "/chaz_web/static/css/main.9ff40582.css.map",
+    "main.e18efb5d.js.map": "/chaz_web/static/js/main.e18efb5d.js.map",
+    "787.953b5010.chunk.js.map": "/chaz_web/static/js/787.953b5010.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff40582.css",
+    "static/js/main.e18efb5d.js"
+  ]
+}
