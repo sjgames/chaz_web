@@ -12,14 +12,14 @@ function loadGLTFModel(scene, glbPath, options) {
       glbPath,
       (gltf) => {
         const obj = gltf.scene;
-        obj.name = "dinosaur";
+        obj.name = "chaz";
         obj.position.y = 0;
         obj.position.x = 0;
         obj.receiveShadow = receiveShadow;
         obj.castShadow = castShadow;
         scene.add(obj);
 
-        obj.traverse(function (child) {
+        obj.traverse((child) => {
           if (child.isMesh) {
             child.castShadow = castShadow;
             child.receiveShadow = receiveShadow;
@@ -29,7 +29,7 @@ function loadGLTFModel(scene, glbPath, options) {
         resolve(obj);
       },
       undefined,
-      function (error) {
+      (error) => {
         console.log(error);
         reject(error);
       }
@@ -37,7 +37,7 @@ function loadGLTFModel(scene, glbPath, options) {
   });
 }
 
-function easeOutCirc(x) {
+const easeOutCirc = (x) => {
   return Math.sqrt(1 - Math.pow(x - 1, 4));
 }
 
@@ -50,8 +50,6 @@ const VoxelChaz = () => {
 
     const { current: container } = refContainer;
     if (container && !renderer) {
-      const scW = container.clientWidth;
-      const scH = container.clientHeight;
       const renderer = new THREE.WebGLRenderer({
         antialias: true,
         alpha: true
@@ -124,7 +122,6 @@ const VoxelChaz = () => {
   }, []);
 
   return (
-
       <div
       ref={refContainer}
     >
