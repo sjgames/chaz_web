@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chaz_web/static/css/main.9ff40582.css",
-    "main.js": "/chaz_web/static/js/main.8641c57c.js",
+    "main.js": "/chaz_web/static/js/main.8c787eff.js",
     "static/js/787.588cdf27.chunk.js": "/chaz_web/static/js/787.588cdf27.chunk.js",
     "index.html": "/chaz_web/index.html",
     "main.9ff40582.css.map": "/chaz_web/static/css/main.9ff40582.css.map",
-    "main.8641c57c.js.map": "/chaz_web/static/js/main.8641c57c.js.map",
+    "main.8c787eff.js.map": "/chaz_web/static/js/main.8c787eff.js.map",
     "787.588cdf27.chunk.js.map": "/chaz_web/static/js/787.588cdf27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ff40582.css",
-    "static/js/main.8641c57c.js"
+    "static/js/main.8c787eff.js"
   ]
 }
